@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "@context": [
+        "https://www.openactive.io/ns/oa.jsonld",
+        "https://www.openactive.io/ns-beta/oa.jsonld"
+      ],
+      "id": "14a16fa8-9b04-4d6d-acc5-fccb221d769b",
+      "state": "updated",
+      "kind": "Event",
+      "modified": 1499779632026,
+      "data": {
+        "category": "Advantage Tennis Training",
+        "level": "Intermediate",
+        "genderRestriction": "mixed",
+        "url": "https://clubspark.lta.org.uk/AdvantageTennisTraining",
+        "activity": {
+          "id": "http://openactive.io/activity-list/#f2ea7405-6098-4378-b0fe-4e398a659fc4",
+          "inScheme": "https://www.openactive.io/activity-list/activity-list.jsonld",
+          "prefLabel": "Tennis",
+          "type": "skos:Concept"
+        },
+        "ageRange": "10+",
+        "isCoached": true,
+        "start": "2017-07-18T00:00:00+00:00",
+        "end": "2017-08-08T00:00:00+00:00",
+        "duration": "P21D",
+        "type": "Event",
+        "offer": [
+          {
+            "type": "Offer",
+            "price": 10,
+            "priceCurrency": "GBP",
+            "identifier": "COURSE",
+            "name": "Full course"
+          },
+          {
+            "type": "Offer",
+            "price": 2,
+            "priceCurrency": "GBP",
+            "identifier": "SESSION",
+            "name": "Single session"
+          }
+        ],
+        "location": {
+          "type": "Place",
+          "address": {
+            "streetAddress": "Quick Deliveries\r\nLevel 16\r\n10 Baxter Street",
+            "type": "PostalAddress",
+            "addressLocality": "Wimbledon",
+            "addressRegion": "London",
+            "postalCode": "SW19 400"
+          },
+          "geo": {
+            "type": "GeoCoordinates",
+            "latitude": 52.3124,
+            "longitude": -12.452
+          },
+          "identifier": "a6ee24aa-ff1d-4468-b99a-5e2ecc18b157",
+          "name": "Quick Deliveries"
+        },
+        "subEvent": [
+          {
+            "category": "Standard",
+            "url": "https://clubspark.lta.org.uk/0/Summary/c37195aa-1fa8-4f37-b9bc-07bb1a589331",
+            "isCoached": true,
+            "start": "2017-07-18T09:00:00+00:00",
+            "end": "2017-07-18T10:00:00+00:00",
+            "duration": "PT1H",
+            "type": "Event",
+            "offer": [
+              {
+                "type": "Offer",
+                "price": 2,
+                "priceCurrency": "GBP",
+                "identifier": "SESSION",
+                "name": "Single session"
+              }
+            ],
+            "eventStatus": "http://schema.org/EventScheduled",
+            "maximumAttendeeCapacity": 4,
+            "identifier": "c37195aa-1fa8-4f37-b9bc-07bb1a589331",
+            "name": "Sample Session"
+          },
+          {
+            "category": "Standard",
+            "url": "https://clubspark.lta.org.uk/0/Summary/d135f855-1910-4769-9955-375c3b8f9984",
+            "isCoached": true,
+            "start": "2017-07-25T09:00:00+00:00",
+            "end": "2017-07-25T10:00:00+00:00",
+            "duration": "PT1H",
+            "type": "Event",
+            "offer": [
+              {
+                "type": "Offer",
+                "price": 2,
+                "priceCurrency": "GBP",
+                "identifier": "SESSION",
+                "name": "Single session"
+              }
+            ],
+            "eventStatus": "http://schema.org/EventScheduled",
+            "maximumAttendeeCapacity": 6,
+            "identifier": "d135f855-1910-4769-9955-375c3b8f9984",
+            "name": "Sample Session"
+          }
+        ],
+        "eventStatus": "http://schema.org/EventScheduled",
+        "maximumAttendeeCapacity": 4,
+        "identifier": "14a16fa8-9b04-4d6d-acc5-fccb221d769b",
+        "description": "Course Description",
+        "name": "Example Course"
+      }
+    }
+  ],
+  "next": "https://api.clubspark.uk/odi/public/courses?afterTimestamp=1499779632026&afterID=14a16fa8-9b04-4d6d-acc5-fccb221d769b",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

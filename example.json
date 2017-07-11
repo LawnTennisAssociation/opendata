@@ -71,7 +71,7 @@
             "offer": [
               {
                 "type": "Offer",
-                "price": 2,
+                "price": 3,
                 "priceCurrency": "GBP",
                 "identifier": "SESSION",
                 "name": "Single session"
@@ -93,7 +93,7 @@
             "offer": [
               {
                 "type": "Offer",
-                "price": 2,
+                "price": 4,
                 "priceCurrency": "GBP",
                 "identifier": "SESSION",
                 "name": "Single session"
@@ -113,6 +113,6 @@
       }
     }
   ],
-  "next": "https://api.clubspark.uk/odi/public/courses?afterTimestamp=1499779632026&afterID=14a16fa8-9b04-4d6d-acc5-fccb221d769b",
+  "next": "https://lawntennisassociation.github.io/opendata/example-2.json",
   "license": "https://creativecommons.org/licenses/by/4.0/"
 }
